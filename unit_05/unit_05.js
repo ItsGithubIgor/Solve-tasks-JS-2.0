@@ -83,7 +83,10 @@ document.querySelector('.b-6').onclick = t6;
 // Задача решается с помощью цикла.
 
 function t7() {
-
+    let i7 = +(document.querySelector('.i-7').value);
+    for (let i = i7;i >= 0; i--) {
+        document.querySelector('.out-7').innerHTML += i + ' ';
+    }
 }
 
 document.querySelector('.b-7').onclick = t7;
